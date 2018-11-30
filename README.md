@@ -11,5 +11,5 @@ On va considérer quatre manières de représenter une image en couleur et donc 
 
 ## Membres du projet
 
-- NOM, prénom, numéro de groupe, du premier participant
-- NOM, prénom, numéro de groupe, du deuxième participant
+THIEL Samantha, L2 informatique groupe 2
+DIALLO Ndeye Néné , L2 informatique groupe 2
