@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 
 public class BruteRasterImage implements Image{
-    private final int width, height;
+    private int width, height;
     Color pixelColor;
-    private final Color[][] pixels;
+    private Color[][] pixels;
 
     public BruteRasterImage(Color color, int width, int height){
         this.width =  width;
@@ -34,7 +34,7 @@ public class BruteRasterImage implements Image{
     }
 
     public void setPixelColor(Color color, int x, int y){
-        Pixel pixel = new Pixel(x, y, color);
+        this.pixels[x][y] = color;
     }
 
     public Color getPixelColor(int x, int y){
@@ -42,11 +42,11 @@ public class BruteRasterImage implements Image{
     }
 
     private void setPixelsColor(Color[][] pixels){
-
+        this.pixels = pixels;
     }
 
     private void setPixelsColor(Color color){
-          color = this.pixelColor;
+          this.pixelColor = color;
     }
 
     public int getWidth(){
@@ -57,12 +57,11 @@ public class BruteRasterImage implements Image{
         return height;
     }
 
-    protected void setWidth(int width){
-
-
+    protected void setWidth(int width) {
+        this.width = width;
     }
 
     protected void setHeight(int height){
-
+        this.height = height;
     }
 }
