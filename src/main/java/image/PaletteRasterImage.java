@@ -24,7 +24,6 @@ public class PaletteRasterImage implements Image {
     }
 
     public void createRepresentation(){
-        Color[][] matrix = this.pixels;
     }
 
     public void setPixelColor(Color color, int x, int y){
