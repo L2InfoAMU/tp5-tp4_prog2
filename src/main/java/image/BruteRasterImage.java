@@ -1,6 +1,7 @@
 package image;
 import javafx.scene.paint.Color;
 import java.util.Scanner;
+import java.awt.*;
 
 
 public class BruteRasterImage implements Image{

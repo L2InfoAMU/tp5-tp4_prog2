@@ -1,5 +1,5 @@
 package image;
-
+import java.awt.*;
 import javafx.scene.paint.Color;
 
 public class RasterFlagFactory implements ImageFactory {
@@ -30,9 +30,13 @@ public class RasterFlagFactory implements ImageFactory {
             }
         }
 
-        switch (rasterImageType){
+        switch (rasterImageType) {
             case BRUTE:
                 return new BruteRasterImage(colors);
+
+            case PALETTE:
+                return new PaletteRasterImage(colors);
+
             default:
                 throw new NotSupportedException(rasterImageType + " is not supported");
         }
