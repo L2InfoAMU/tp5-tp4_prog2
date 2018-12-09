@@ -1,4 +1,4 @@
-package image;
+package src.main.java.image;
 
 import javafx.scene.paint.Color;
 

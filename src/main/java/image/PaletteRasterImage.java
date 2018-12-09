@@ -1,10 +1,10 @@
-package image;
+package src.main.java.image;
 import javafx.scene.paint.Color;
 import java.util.ArrayList;
 import java.util.List;
 import java.awt.*;
 
-public class PaletteRasterImage implements Image {
+public class PaletteRasterImage extends RasterImage implements Image {
     private List<Color> palette;
     private int[][] indexesOfColors;
     private int width, height;
@@ -17,11 +17,10 @@ public class PaletteRasterImage implements Image {
 
     public PaletteRasterImage(Color[][] pixels){
         this.indexesOfColors = indexesOfColors;
-        this.width = indexesOfColors.length;
+        super(indexesOfColors.length, indexesOfColors[0].length);
         if(width == 0){
             throw new IllegalArgumentException("The matrix should not have a dimension equals to 0.");
         }
-        this.height = indexesOfColors[0].length;
     }
 
     public void createRepresentation(){
@@ -57,14 +56,6 @@ public class PaletteRasterImage implements Image {
                 pixelColor = color;
             }
         }
-    }
-
-    public int getWidth(){
-        return width;
-    }
-
-    public int getHeight(){
-        return height;
     }
 
     protected void setWidth(int width) {
