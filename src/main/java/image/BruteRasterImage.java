@@ -5,6 +5,9 @@ import java.awt.*;
 
 
 public class BruteRasterImage extends RasterImage implements Image{
+
+    //TODO : tester s'il n'y a pas eu de changements de comportement depuis l'écriture de la classe abstraite RasterImage
+
     private int width, height;
     Color pixelColor;
     private Color[][] pixels;

@@ -5,6 +5,9 @@ import java.util.List;
 import java.awt.*;
 
 public class PaletteRasterImage extends RasterImage implements Image {
+
+    //TODO : tester s'il n'y a pas eu de changements de comportement depuis l'écriture de la classe abstraite RasterImage
+
     private List<Color> palette;
     private int[][] indexesOfColors;
     private int width, height;
