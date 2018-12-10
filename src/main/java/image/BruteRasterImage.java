@@ -50,7 +50,7 @@ public class BruteRasterImage extends RasterImage implements Image{
     }
 
     private void setPixelsColor(Color color){
-          this.pixelColor = color;
+        this.pixelColor = color;
     }
 
     protected void setWidth(int width) {
