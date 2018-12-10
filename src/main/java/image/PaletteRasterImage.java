@@ -1,4 +1,4 @@
-package image;
+package src.main.java.image;
 import javafx.scene.paint.Color;
 import java.util.ArrayList;
 import java.util.List;
@@ -48,9 +48,9 @@ public class PaletteRasterImage extends RasterImage implements Image {
         return palette.get(indexesOfColors[x][y]);
     }
 
-    /*private void setPixelsColor(Color[][] pixels){
-        Color[][] matrix = new PaletteRasterImage(pixels);
-      }*/
+    private void setPixelsColor(Color[][] pixels) {
+        PaletteRasterImage matrix = new PaletteRasterImage(pixels);
+    }
 
     private void setPixelsColor(Color color){
         for(int i = 0; i < indexesOfColors.length; i++){

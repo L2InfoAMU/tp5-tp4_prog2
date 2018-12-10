@@ -1,4 +1,4 @@
-package image;
+package src.main.java.image;
 
 
 public class HashMap<Point,Color> implements Map<Point,Color> {

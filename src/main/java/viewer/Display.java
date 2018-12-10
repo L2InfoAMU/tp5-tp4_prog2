@@ -1,4 +1,4 @@
-package viewer;
+package src.main.java.viewer;
 import java.awt.*;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
