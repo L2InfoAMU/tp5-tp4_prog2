@@ -3,5 +3,6 @@ import java.awt.*;
 
 public enum RasterImageType {
     BRUTE,
-    PALETTE;
+    PALETTE,
+    SPARSE;
 }
