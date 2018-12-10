@@ -1,4 +1,4 @@
-package src.main.java.image;
+package image;
 
 public abstract class RasterImage {
     private int width, height;

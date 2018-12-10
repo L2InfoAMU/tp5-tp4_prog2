@@ -1,4 +1,4 @@
-package src.main.java.image;
+package image;
 import javafx.scene.paint.Color;
 
 public interface Shape {
