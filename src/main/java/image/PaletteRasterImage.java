@@ -1,8 +1,9 @@
-package src.main.java.image;
+package main.java.image;
+
 import javafx.scene.paint.Color;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.awt.*;
 
 public class PaletteRasterImage extends RasterImage implements Image {
 

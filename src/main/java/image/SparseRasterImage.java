@@ -1,5 +1,4 @@
-package src.main.java.image;
-import java.awt.*;
+package main.java.image;
 import javafx.scene.paint.Color;
 
 public class SparseRasterImage extends RasterImage {

@@ -1,7 +1,7 @@
-package src.main.java.image;
+package main.java.image;
 import javafx.scene.paint.Color;
-import java.util.Scanner;
-import java.awt.*;
+
+import java.awt.Image;
 
 
 public class BruteRasterImage extends RasterImage implements Image{
