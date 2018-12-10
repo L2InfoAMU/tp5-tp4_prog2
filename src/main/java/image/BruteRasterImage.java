@@ -1,9 +1,13 @@
-package image;
+package src.main.java.image;
 import javafx.scene.paint.Color;
 import java.util.Scanner;
+import java.awt.*;
 
 
-public class BruteRasterImage implements Image{
+public class BruteRasterImage extends RasterImage implements Image{
+
+    //TODO : tester s'il n'y a pas eu de changements de comportement depuis l'écriture de la classe abstraite RasterImage
+
     private int width, height;
     Color pixelColor;
     private Color[][] pixels;
@@ -47,14 +51,6 @@ public class BruteRasterImage implements Image{
 
     private void setPixelsColor(Color color){
           this.pixelColor = color;
-    }
-
-    public int getWidth(){
-        return width;
-    }
-
-    public int getHeight(){
-        return height;
     }
 
     protected void setWidth(int width) {

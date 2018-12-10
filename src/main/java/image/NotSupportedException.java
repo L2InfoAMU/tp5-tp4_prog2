@@ -1,4 +1,4 @@
-package image;
+package src.main.java.image;
 
 public class NotSupportedException extends RuntimeException{
 

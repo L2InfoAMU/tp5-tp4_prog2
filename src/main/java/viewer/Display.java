@@ -1,6 +1,5 @@
 package viewer;
-
-import image.*;
+import java.awt.*;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.canvas.Canvas;

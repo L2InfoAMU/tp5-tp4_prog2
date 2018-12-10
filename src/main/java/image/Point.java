@@ -1,5 +1,5 @@
-package image;
-
+package src.main.java.image;
+import java.awt.*;
 import java.util.Objects;
 
 /**
